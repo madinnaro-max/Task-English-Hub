@@ -1,0 +1,27 @@
+{
+  "id": "task-english-hub",
+  "name": "Task&English Hub",
+  "short_name": "Task&English",
+  "description": "Travail, anglais et organisation : réunions, notes, vocabulaire, flashcards, emploi du temps et tâches. 100 % hors ligne.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f6fb",
+  "theme_color": "#f4f6fb",
+  "categories": ["productivity", "education"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Aujourd'hui", "short_name": "Aujourd'hui", "url": "./#/today", "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Réviser mes flashcards", "short_name": "Réviser", "url": "./#/flashcards", "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Tâches", "short_name": "Tâches", "url": "./#/tasks", "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Vocabulaire", "short_name": "Vocabulaire", "url": "./#/vocab", "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
